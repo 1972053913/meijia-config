@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: MEIJIA-PLAT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///cms?useSSL=false
+    username: root
+    password: admin
