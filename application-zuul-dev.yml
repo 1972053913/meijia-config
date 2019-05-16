@@ -13,14 +13,7 @@ zuul:
     product:
       path: /product/**
       service-id: meijia-product
-hystrix:
-  command:
-    myusers-service:
-      execution:
-       isolation:
-          thread:
-            timeoutInMilliseconds: 5000
 meijia-product: 
   ribbon:
-    ConnectTimeout: 2000
-    ReadTimeout: 8000
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
