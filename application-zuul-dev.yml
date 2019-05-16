@@ -10,3 +10,10 @@ zuul:
     plat:
       path: /plat/**
       service-id: meijia-plat
+    product:
+      path: /product/**
+      service-id: meijia-product
+aigou-product: 
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
