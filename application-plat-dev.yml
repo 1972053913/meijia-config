@@ -5,6 +5,6 @@ spring:
     name: MEIJIA-PLAT
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///meijia?useSSL=false&useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql:///meijia-plat?useSSL=false&useUnicode=true&characterEncoding=utf8
     username: root
     password: admin
