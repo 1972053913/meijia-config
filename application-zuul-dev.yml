@@ -20,7 +20,7 @@ hystrix:
        isolation:
           thread:
             timeoutInMilliseconds: 5000
-aigou-product: 
+meijia-product: 
   ribbon:
     ConnectTimeout: 2000
     ReadTimeout: 8000
