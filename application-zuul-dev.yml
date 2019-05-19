@@ -13,7 +13,14 @@ zuul:
     product:
       path: /product/**
       service-id: meijia-product
+    product:
+      path: /common/**
+      service-id: meijia-common
 meijia-product: 
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
+meijia-common: 
   ribbon:
     ConnectTimeout: 1000
     ReadTimeout: 5000
