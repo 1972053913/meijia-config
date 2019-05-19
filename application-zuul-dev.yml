@@ -13,7 +13,7 @@ zuul:
     product:
       path: /product/**
       service-id: meijia-product
-    product:
+    common:
       path: /common/**
       service-id: meijia-common
 meijia-product: 
